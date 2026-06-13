@@ -25,12 +25,12 @@ estatística descritiva<br>
 clusterização hierárica/aglomeração<br>
 visualização de dados categóricos<br>
 
-2.Objetivos<br>
-Objetivo Geral<br>
+2.Objetivos:<br><br>
+Objetivo Geral:<br>
 
 Analisar dados ferroviários utilizando técnicas de mineração e visualização de dados.<br>
 
-Objetivos Específicos<br>
+Objetivos Específicos:<br>
 
 Realizar limpeza e tratamento dos dados<br>
 Aplicar proteção/anomização de informações<br>
@@ -39,12 +39,12 @@ Aplicar clusterização hierárquica<br>
 Visualizar dados categóricos<br>
 Identificar padrões operacionais<br>
 
-3.Fundamentação Teórica<br>
-3.1 Mineração de Dados<br>
+3.Fundamentação Teórica:<br><br>
+3.1 Mineração de Dados:<br>
 
 A mineração de dados consiste no processo de descoberta de padrões úteis em grandes conjuntos de dados.<br>
 
-3.2 Estatística Descritiva<br>
+3.2 Estatística Descritiva:<br>
 
 A estatística descritiva é utilizada para resumir e organizar dados através de:<br>
 
@@ -54,14 +54,14 @@ frequência<br>
 desvio padrão<br>
 gráficos<br>
 
-3.3 Clusterização Hierárquica<br>
+3.3 Clusterização Hierárquica:<br>
 
 A clusterização hierárquica agrupa objetos semelhantes em clusters.<br>
 
 Foi utilizado o método aglomerativo com distância euclidiana.<br>
 
-4.Metodologia<br>
-4.1 Coleta dos Dados<br>
+4.Metodologia:<br><br>
+4.1 Coleta dos Dados:<br>
 
 Foi utilizado um dataset ferroviário fictício contendo as seguintes variáveis:<br>
 
@@ -74,9 +74,9 @@ Foi utilizado um dataset ferroviário fictício contendo as seguintes variáveis
 | **clima** | categórica |
 | **velocidade_media_kmh** | numérica |
 
-4.2 Limpeza e Proteção de Dados<br>
+4.2 Limpeza e Proteção de Dados:<br><br>
 Etapas realizadas:<br>
-Remoção de duplicidades<br>
+Remoção de duplicidades.<br><br>
 Após análise foram obtidos os seguintes insigts:<br><br>
 <img src="https://github.com/VanusaRibeiro/projetoanalisededados/blob/main/status%20das%20viagens.png" width="800" style="width:800; max-width: 400px; height: 400px;            object-fit: cover; border-radius: 8px;" />
 
