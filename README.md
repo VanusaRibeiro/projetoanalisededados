@@ -123,7 +123,17 @@ As visualizações categóricas facilitaram a interpretação dos dados e contri
 | Risco de acidente  | severidade          |
 
 <br>
-Features utilizadas: Temperatura do motor Vibração, Clima Distância, Histórico de manutenção, Pressão de freio, Idade do trem<br>
+De acordo com um script gerado para detectar falhas,foi observado que :<br>
+TR-101 e TR-103 foram os únicos a registrar falhas mecânicas confirmadas dentro do conjunto de dados de manutenção analisados.<br>
+O script filtra apenas as linhas onde a variável falha_detectada é igual a "SIM"<br>
+No dataset ficticio, apenas esses dois trens atenderam a esse critério<br>
+TR-101: Este trem registrou 1 falha no sistema de freios durante uma manutenção do tipo corretiva, <br>gerando um custo de BRL 45.000 e mantendo o ativo parado por 18; horas<br>
+TR-103: Também registrou 1 falha, especificamente no motor elétrico.<br>
+Esta foi a ocorrência mais crítica do levantamento, apresentando o maior custo (BRL 67.000) e o maior tempo de inatividade (24 horas)<br><br>
+
+<img src="https://github.com/VanusaRibeiro/projetoanalisededados/blob/main/falhas%20detectadas.png" width="800" style="width:800; max-width: 200px; height: 100px;            object-fit: cover; border-radius: 8px;" />
+
+Features utilizadas: Temperatura do motor Vibração, Clima, Distância, Histórico de manutenção, Pressão de freio, Idade do trem<br>
 
 8. Tecnologias Utilizadas<br>
 Python<br>
