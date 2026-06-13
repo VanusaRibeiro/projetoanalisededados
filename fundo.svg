@@ -1,0 +1,18 @@
+<svg fill="none" viewBox="0 0 800 160" width="100%" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://w3.org">
+      <div style="background-color: #add8e6; padding: 35px; font-family: system-ui, -apple-system, sans-serif; border-radius: 12px; text-align: center; box-sizing: border-box; position: relative; overflow: hidden; height: 160px;">
+
+        <!-- Imagem do Trem como Marca d'água no fundo direito -->
+        <img src="https://github.com/VanusaRibeiro/projetoanalisededados/blob/main/imgtrem.jpg" style="position: absolute; right: 15px; top: 10px; height: 140px; opacity: 0.18; border-radius: 8px; pointer-events: none;" />
+
+        <!-- Textos por cima da marca d'água -->
+        <div style="position: relative; z-index: 2;">
+          <h1 style="color: #0d233a; margin: 0 0 8px 0; font-size: 32px; font-weight: 800;">🚂 PROJETO ANÁLISE DE DADOS</h1>
+          <p style="color: #2c3e50; margin: 0; font-size: 18px; font-weight: 500;">Análise de dados aplicada ao sistema ferroviário</p>
+        </div>
+
+      </div>
+    </div>
+  </foreignObject>
+</svg>
