@@ -8,11 +8,14 @@
 
         <!-- Textos por cima da marca d'água -->
         <div style="position: relative; z-index: 2;">
-          <h1 style="color: #0d233a; margin: 0 0 8px 0; font-size: 32px; font-weight: 800;">🚂 PROJETO ANÁLISE DE DADOS</h1>
-          <p style="color: #2c3e50; margin: 0; font-size: 18px; font-weight: 500;">Análise de dados aplicada ao sistema ferroviário</p>
+          <h1 style="color: #0d233a; margin: 0 0 8px 0; font-size: 32px; font-weight: 800;">🚂 PROJETO ANÁLISE DE DADOS APLICADA AO SISTEMA FERROVIÁRIO</h1>
+          
         </div>
 
       </div>
     </div>
   </foreignObject>
 </svg>
+
+
+
