@@ -77,7 +77,7 @@ Foi utilizado um dataset ferroviário fictício contendo as seguintes variáveis
 4.2 Limpeza e Proteção de Dados:<br><br>
 Etapas realizadas:<br>
 Remoção de duplicidades.<br><br>
-Após análise foram obtidos os seguintes insigts:<br><br>
+Após análise foram obtidos os seguintes insights :<br><br>
 <img src="https://github.com/VanusaRibeiro/projetoanalisededados/blob/main/status%20das%20viagens.png" width="800" style="width:800; max-width: 400px; height: 400px;            object-fit: cover; border-radius: 8px;" />
 
 6. Resultados:<br>
