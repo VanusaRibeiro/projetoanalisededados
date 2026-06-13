@@ -77,3 +77,64 @@ Foi utilizado um dataset ferroviário fictício contendo as seguintes variáveis
 4.2 Limpeza e Proteção de Dados<br>
 Etapas realizadas:<br>
 Remoção de duplicidades<br>
+Após análise foram obtidos os seguintes insigts:<br><br>
+<img src="https://github.com/VanusaRibeiro/projetoanalisededados/blob/main/status%20das%20viagens.png" width="800" style="width:800; max-width: 400px; height: 400px;            object-fit: cover; border-radius: 8px;" />
+
+6. Resultados:<br>
+
+Após a análise dos dados, foram identificados três grupos principais:<br>
+
+viagens eficientes : 0<br>
+viagens com alto atraso: 1<br>
+viagens de alta carga: 2<br>
+
+Resultado da Média por atrasos:<br>
+
+linha<br>
+LN-01    30.0<br>
+LN-02    20.0<br>
+LN-03    90.0<br>
+LN-04    40.0<br>
+LN-05    -5.0<br>
+
+LN-03 - linha com resultado crítico paresentando maior atraso médio em todo o sistema;<br>
+As linhas LN-01 (30.0), LN-02 (20.0) e LN-04 (40.0) apresentando atrasos moderados;<br>
+LN-05 apresentando anomalias, indicando em média que as viagens nessa linha chegaram adiantadas.<br>
+
+De acordo com os resultados do projetos foram observados um maior atraso em condições climáticas severas.<br>
+<br>
+7.Conclusão<br>
+
+A aplicação de técnicas de mineração e visualização de dados:<br> permitiu identificar padrões relevantes no sistema ferroviário.<br>
+
+A clusterização hierárquica possibilitou separar grupos operacionais semelhantes, enquanto as análises descritivas auxiliaram na compreensão dos indicadores ferroviários.<br>
+Essa observação faz parte dos resultados principais obtidos após a análise de mineração e visualização dos dados ferroviários, que também identificaram outros padrões importantes:
+
+Linha Crítica: A linha LN-03 foi a que apresentou o maior índice de atraso médio entre todas as analisadas<br>
+Agrupamento (Cluster 1): O processo de clusterização hierárquica identificou um grupo específico de viagens (Cluster 1) caracterizado justamente por apresentar um alto atraso<br>
+Métricas Gerais: O dataset registrou um atraso médio geral de 38 minutos, com picos que chegaram a 132 minutos.<br>
+As visualizações categóricas facilitaram a interpretação dos dados e contribuíram para a análise exploratória.<br><br>
+
+| Problema           | Target              |
+| ------------------ | ------------------- |
+| Predição de atraso | atraso_min          |
+| Falha mecânica     | falha_detectada     |
+| Consumo energético | consumo_energia_kwh |
+| Risco de acidente  | severidade          |
+
+<br>
+Features utilizadas: Temperatura do motor Vibração, Clima Distância, Histórico de manutenção, Pressão de freio, Idade do trem<br>
+
+8. Tecnologias Utilizadas<br>
+Python<br>
+Pandas<br>
+Scikit-learn<br>
+Matplotlib<br>
+Seaborn<br><br>
+9. Referências
+Han, J.; Kamber, M. Data Mining: Concepts and Techniques.
+Montgomery, D. Estatística Aplicada.
+Documentação oficial do Python
+Documentação oficial do Pandas
+Documentação oficial do Scikit-learn
+
